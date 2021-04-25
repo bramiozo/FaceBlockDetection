@@ -1,0 +1,12 @@
+base_model: vgg-16
+resolution: 
+  height: 128
+  widht: 128
+augmentation_strategy: fast
+epochs: 10
+batch_size: 64
+optimizer:
+  method: adam
+  strategy:
+    method: cyclic
+apex: True
